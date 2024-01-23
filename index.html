@@ -546,9 +546,9 @@
         </p>
         <hr class="border-dashed text-{#13131833} border-2 mt-8 mb-12" />
       </div>
-      <div class="flex">
+      <div class="flex gap-6 flex-col lg:flex-row">
         <div class="p-12 rounded-2xl border border-[#1313181A] flex flex-col gap-6">
-            <div class="bg-[#BCED6D1A] p-8 rounded-2xl">
+            <div class="bg-[#BCED6D1A] p-8 rounded-2xl w-auto lg:w-[374px]">
                 <img src="./Images/Group 1171275317.png" alt="">
                 <p class="text-[#13131899] mt-6">Phone Number : </p>
                 <p class="text-[#131318] font-extrabold text-[18px]">(+62) 123-321-543</p>
@@ -565,7 +565,33 @@
             </div>
         </div>
 
-        <!--  -->
+        <!-- from -->
+        <div class="grid grid-cols-12 gap-6 w-full">          
+<div class="inline-flex flex-col gap-4 col-span-12 lg:col-span-6">
+  <label class="text-[#131318] font-bold text-xl" for="name">Your Name</label>
+  <input class="p-5 rounded-xl bg-[#13131808]" type="text" placeholder="Enter your full name" name="name" />
+</div>
+<div class="inline-flex flex-col gap-4 col-span-12 lg:col-span-6">
+  <label class="text-[#131318] font-bold text-xl" for="email">Your Email</label>
+  <input class="p-5 rounded-xl bg-[#13131808]" type="email" placeholder="Enter your email" name="email" />
+</div>
+<div class="inline-flex flex-col gap-4 col-span-12 lg:col-span-6">
+  <label class="text-[#131318] font-bold text-xl" for="subject">Subject</label>
+  <input class="p-5 rounded-xl bg-[#13131808]" type="text" placeholder="Enter your subject" name="subject" />
+</div>
+<div class="inline-flex flex-col gap-4 col-span-12 lg:col-span-6">
+  <label class="text-[#131318] font-bold text-xl" for="number">Phone Number</label>
+  <input class="p-5 rounded-xl bg-[#13131808]" type="text" placeholder="Enter your phone number" name="number" />
+</div>
+<div class="inline-flex flex-col gap-4 col-span-12">
+  <label class="text-[#131318] font-bold text-xl" for="message">Message</label>
+  <textarea class="p-5 rounded-xl bg-[#13131808]" rows="12" cols="12" type="text" placeholder="Write your message" name="message" /></textarea>
+</div>
+<div class="col-span-12 w-full">
+  <button class="w-full btn text-white font-bold text-xl bg-[#FF4240]">Send Message</button>
+</div>
+        </div>
+
         <div>
         </div>
       </div>
